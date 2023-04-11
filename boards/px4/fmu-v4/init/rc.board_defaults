@@ -6,4 +6,8 @@
 param set-default BAT1_V_DIV 13.653333333
 param set-default BAT1_A_PER_V 36.367515152
 
+param set-default EKF2_AID_MASK 24
+param set-default EKF2_HGT_MODE 3
+param set-default COM_RCL_EXCEPT 4
+
 safety_button start
