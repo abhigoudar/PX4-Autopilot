@@ -36,3 +36,14 @@ set MIXER quad_x
 set PWM_OUT 1234
 
 set PWM_AUX_OUT 1234
+
+param set-default EKF2_AID_MASK 280
+param set-default EKF2_HGT_MODE 3
+param set-default EKF2_EV_NOISE_MD 1
+param set-default EKF2_EVP_NOISE 0.001
+param set-default EKF2_EVV_NOISE 0.001
+# param set-default EKF2_MAG_TYPE 5
+param set-default EKF2_EV_DELAY 1
+
+# param set-default SYS_HAS_BARO 0
+param set-default COM_RCL_EXCEPT 4
